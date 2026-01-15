@@ -8,13 +8,34 @@ This repository contains a skill that provides guidance on Taro and native WeCha
 
 ## Installation
 
-Install this skill using openskills:
+### Global Installation
+
+Install this skill globally using openskills:
 
 ```bash
 openskills install https://github.com/SteamedBread2333/skills --universal
 ```
 
-This will install the skill globally, making it available for use with compatible AI agents.
+The `--universal` flag installs the skill globally, making it available for use with all compatible AI agents across your system.
+
+### Syncing Skills
+
+After installing skills, you can sync them to ensure you have the latest versions:
+
+```bash
+openskills sync
+```
+
+This command will:
+- Update all installed skills to their latest versions
+- Ensure consistency across your skill installations
+- Refresh skill metadata and dependencies
+
+### Managing Skills
+
+- List installed skills: `openskills list`
+- Update a specific skill: `openskills install <skill-url> --universal` (re-run the install command)
+- Remove a skill: `openskills uninstall <skill-name>`
 
 ## Skill
 
