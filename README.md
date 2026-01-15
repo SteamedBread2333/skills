@@ -1,10 +1,20 @@
 # Skills
 
-This repository contains skills for Claude that demonstrate Taro + WeChat Mini Program hybrid development patterns and best practices.
+This repository contains skills that demonstrate Taro + WeChat Mini Program hybrid development patterns and best practices.
 
 ## About This Repository
 
-This repository contains a skill that teaches Claude how to work with Taro and native WeChat Mini Program hybrid development. The skill covers architecture patterns, implementation details, and common pitfalls when mixing Taro React components with native WeChat Mini Program components and APIs.
+This repository contains a skill that provides guidance on Taro and native WeChat Mini Program hybrid development. The skill covers architecture patterns, implementation details, and common pitfalls when mixing Taro React components with native WeChat Mini Program components and APIs.
+
+## Installation
+
+Install this skill using openskills:
+
+```bash
+openskills install https://github.com/SteamedBread2333/skills --universal
+```
+
+This will install the skill globally, making it available for use with compatible AI agents.
 
 ## Skill
 
@@ -12,7 +22,7 @@ This repository contains a skill that teaches Claude how to work with Taro and n
 
 ## Usage
 
-This skill can be used to help Claude understand:
+This skill covers:
 - How to structure projects that mix Taro and native WeChat Mini Program code
 - Best practices for component integration
 - Routing and navigation patterns
